@@ -13,7 +13,7 @@ public class UsersController : ControllerBase
 
     public UsersController(DataContext context)
     {
-        _context = context;
+        _context = context; 
     }
 
     [HttpGet]
